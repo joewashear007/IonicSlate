@@ -15,7 +15,7 @@ $royal:                           #886aea !default;
 $dark:                            #444 !default;
 */
 
-// Gray colors from the slate variables 
+// Gray & colors from the slate variables 
 $gray-base:              #000 !default;
 $gray-darker:            #272B30 !default; // #222
 $gray-dark:              #3A3F44 !default;   // #333
@@ -23,15 +23,20 @@ $gray:                   #52575C !default; // #555
 $gray-light:             #7A8288 !default;   // #999
 $gray-lighter:           #999 !default; // #eee
 
-
+$brand-primary:         $gray-light !default;
+$brand-success:         #62c462 !default;
+$brand-info:            #5bc0de !default;
+$brand-warning:         #f89406 !default;
+$brand-danger:          #ee5f5b !default;
+$btn-default-color:     #fff !default;
 
 $light: #C8C8C8 !default;
 $stable: $gray-dark;
 $primary: $gray-light;
-$calm: #5BC0DE !default;
-$balanced: #62C462 !default;
-$energized: #DF8505 !default;
-$assertive: #EE5F5B !default; 
+$calm: $brand-info;
+$balanced: $brand-success;
+$energized: $brand-warning;
+$assertive: $brand-danger; 
 
 $base-background-color: $gray-darker !default;
 $base-color:  #C8C8C8 !default;
@@ -41,22 +46,32 @@ $button-light-border: rgba(0,0,0,0.6) !default;
 $button-light-active-bg:#020202 !default;
 $button-light-active-border: rgba(0,0,0,0.6) !default;
 
-$button-stable-text:              #fff !default;
-$button-stable-border:            rgba(0,0,0,0.6) !default;
-$button-stable-active-bg:         #020202 !default;
-$button-stable-active-border:     rgba(0,0,0,0.6) !default;
+$button-stable-text:          $btn-default-color !default;
+$button-stable-border:        rgba(0,0,0,0.6) !default;
+$button-stable-active-bg:     $brand-primary !default;
+$button-stable-active-border: rgba(0,0,0,0.6) !default;
 
+$button-positive-border:         rgba(0,0,0,0.6) !default;
+$button-calm-border:        rgba(0,0,0,0.6) !default;
+$button-balanced-border:        rgba(0,0,0,0.6) !default;
+$button-energized-border:        rgba(0,0,0,0.6) !default;
+$button-assertive-border:        rgba(0,0,0,0.6) !default;
+
+
+// toggles 
+$toggle-off-bg-color:            $gray-light;
+$toggle-off-border-color:        rgba(0,0,0,0) !default;
+
+// Item overirdes
+$item-divider-bg:                 #f5f5f5 !default;
+$item-divider-color:              #222 !default;
+$item-default-bg:                 lighten($gray-darker, 5%) !default;
+$item-default-border:             rgba(0, 0, 0, 0.6) !default;
+$item-default-text:               $base-color !default;
+$item-default-active-bg:          lighten($gray-darker, 10%) !default;
+$item-default-active-border:      rgba(0, 0, 0, 0.6) !default;
 // The path for our ionicons font files, relative to the built CSS in www/css
 $ionicons-font-path: "../lib/ionic/fonts" !default;
-
-
-
-$brand-primary:         $gray-light !default;
-$brand-success:         #62c462 !default;
-$brand-info:            #5bc0de !default;
-$brand-warning:         #f89406 !default;
-$brand-danger:          #ee5f5b !default;
-
 
 
 // Include all of Ionic
