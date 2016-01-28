@@ -15,9 +15,6 @@ $assertive:                       #ef473a !default;
 $royal:                           #886aea !default;
 $dark:                            #444 !default;
 */
-.item[disabled] {
-  color: #7A8288; }
-
 /*!
   Ionicons, v2.0.1
   Created by Ben Sperry for the Ionic Framework, http://ionicons.com/
@@ -4101,7 +4098,7 @@ a.subdued {
     color: #fff;
     text-decoration: none; }
   .bar-light .button.active, .bar-light .button.activated {
-    background-color: #afafaf; }
+    background-color: #62686d; }
   .bar-light .button.button-clear {
     border-color: transparent;
     background: none;
@@ -5692,7 +5689,7 @@ ion-tabs.tabs-color-active-dark .tab-item {
   .item .item-content.active.item-light,
   .item .item-content.activated.item-light {
     border-color: rgba(0, 0, 0, 0.6);
-    background-color: #afafaf; }
+    background-color: #62686d; }
     .item.active.item-light.item-complex > .item-content,
     .item.activated.item-light.item-complex > .item-content,
     .item-complex.active .item-content.item-light.item-complex > .item-content,
@@ -5700,7 +5697,7 @@ ion-tabs.tabs-color-active-dark .tab-item {
     .item .item-content.active.item-light.item-complex > .item-content,
     .item .item-content.activated.item-light.item-complex > .item-content {
       border-color: rgba(0, 0, 0, 0.6);
-      background-color: #afafaf; }
+      background-color: #62686d; }
   .item.active.item-stable,
   .item.activated.item-stable,
   .item-complex.active .item-content.item-stable,
@@ -5921,10 +5918,10 @@ a.item-content {
   color: #fff; }
   .item-complex.item-light > .item-content.active, .item-complex.item-light > .item-content:active {
     border-color: rgba(0, 0, 0, 0.6);
-    background-color: #afafaf; }
+    background-color: #62686d; }
     .item-complex.item-light > .item-content.active.item-complex > .item-content, .item-complex.item-light > .item-content:active.item-complex > .item-content {
       border-color: rgba(0, 0, 0, 0.6);
-      background-color: #afafaf; }
+      background-color: #62686d; }
 .item-complex.item-stable > .item-content {
   border-color: rgba(0, 0, 0, 0.6);
   background-color: #3A3F44;
@@ -8405,7 +8402,7 @@ progress {
       color: #fff;
       text-decoration: none; }
     .button.button-light.active, .button.button-light.activated {
-      background-color: #afafaf; }
+      background-color: #62686d; }
     .button.button-light.button-clear {
       border-color: transparent;
       background: none;

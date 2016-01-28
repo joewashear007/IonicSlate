@@ -43,7 +43,7 @@ $base-color:  #C8C8C8 !default;
 
 $button-light-text: #fff;
 $button-light-border: rgba(0,0,0,0.6) !default;
-$button-light-active-bg:#020202 !default;
+$button-light-active-bg:darken($light, 10%) !default;
 $button-light-active-border: rgba(0,0,0,0.6) !default;
 
 $button-stable-text:          $btn-default-color !default;
@@ -70,10 +70,24 @@ $item-default-border:             rgba(0, 0, 0, 0.6) !default;
 $item-default-text:               $base-color !default;
 $item-default-active-bg:          lighten($gray-darker, 10%) !default;
 $item-default-active-border:      rgba(0, 0, 0, 0.6) !default;
+
+.item[disabled] {
+  color: $gray-light;
+}
+
+
+// inputs
+$input-bg:                        $gray-lighter;
+$input-bg-disabled:               $stable !default;
+
+$input-color:                     #111 !default;
+//$input-label-color:               $dark !default;
+$input-color-placeholder:         $gray;
+
 // The path for our ionicons font files, relative to the built CSS in www/css
 $ionicons-font-path: "../lib/ionic/fonts" !default;
 
 
 // Include all of Ionic
-@import "www/lib/ionic/scss/ionic";
+@import "../www/lib/ionic/scss/ionic";
 

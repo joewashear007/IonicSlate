@@ -30,8 +30,10 @@
         <ion-content>
             <ion-list>
                 <ion-item>Stuff1</ion-item>
-                <ion-item>Stuff1</ion-item>
-                <ion-item>Stuff1</ion-item>
+                
+                <a class="item item-icon-right" > 2: Awareness <i class="icon ion-checkmark-round balanced"></i></a>
+                <a class="item item-icon-right" ng-disabled="1"> 2: Awareness <i class="icon ion-checkmark-round balanced"></i></a>
+
                 <li class="item item-toggle">
                     HTML5
                     <label class="toggle toggle-assertive">
@@ -43,13 +45,16 @@
                 </li>
                 <li class="item item-toggle">
                     HTML5
-                    <label class="toggle toggle-assertive">
+                    <label class="toggle toggle-balanced">
                         <input type="checkbox">
                         <div class="track">
                             <div class="handle"></div>
                         </div>
                     </label>
                 </li>
+                <label class="item item-input">
+                    <textarea placeholder="Comments"></textarea>
+                </label>
             </ion-list>
             <button class="button">
                 Default
