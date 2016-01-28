@@ -63,8 +63,6 @@ $toggle-off-bg-color:            $gray-light;
 $toggle-off-border-color:        rgba(0,0,0,0) !default;
 
 // Item overirdes
-$item-divider-bg:                 #f5f5f5 !default;
-$item-divider-color:              #222 !default;
 $item-default-bg:                 lighten($gray-darker, 5%) !default;
 $item-default-border:             rgba(0, 0, 0, 0.6) !default;
 $item-default-text:               $base-color !default;
@@ -74,6 +72,10 @@ $item-default-active-border:      rgba(0, 0, 0, 0.6) !default;
 .item[disabled] {
   color: $gray-light;
 }
+
+$item-divider-bg:                darken($gray-darker, 5%) !default;
+$item-divider-color:             $base-color;
+
 
 
 // inputs
@@ -86,6 +88,11 @@ $input-color-placeholder:         $gray-lighter;
 .item-input textarea {
     background: transparent;
 }
+
+// Tabs
+// $tabs-stable-bg:                  $button-stable-bg !default;
+// $tabs-stable-border:              $button-stable-border !default;
+// $tabs-stable-text:                $button-stable-text !default;
 
 // The path for our ionicons font files, relative to the built CSS in www/css
 $ionicons-font-path: "../lib/ionic/fonts" !default;
