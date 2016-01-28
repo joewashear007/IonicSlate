@@ -27,7 +27,8 @@
             <h1 class="title">Ionic Blank Starter</h1>
         </ion-header-bar>
 
-        <ion-content>
+        <ion-content class="has-tabs">
+
             <ion-list>
                 <ion-item>Stuff1</ion-item>
 
@@ -58,49 +59,28 @@
                 <label class="item item-input">
                     <textarea placeholder="Comments"></textarea>
                 </label>
+                <div class="item item-text-wrap">
+                    <button class="button"> Default </button>
+                    <button class="button button-light"> button-light </button>
+                    <button class="button button-stable"> button-stable </button>
+                    <button class="button button-positive"> button-positive </button>
+                    <button class="button button-calm"> button-calm </button>
+                    <button class="button button-balanced"> button-balanced </button>
+                    <button class="button button-energized"> button-energized </button>
+                    <button class="button button-assertive"> button-assertive </button>
+                    <button class="button button-royal"> button-royal </button>
+                    <button class="button button-dark"> button-dark </button>
+                </div>
             </ion-list>
-            <button class="button">
-                Default
-            </button>
-
-            <button class="button button-light">
-                button-light
-            </button>
-
-            <button class="button button-stable">
-                button-stable
-            </button>
-
-            <button class="button button-positive">
-                button-positive
-            </button>
-
-            <button class="button button-calm">
-                button-calm
-            </button>
-
-            <button class="button button-balanced">
-                button-balanced
-            </button>
-
-            <button class="button button-energized">
-                button-energized
-            </button>
-
-            <button class="button button-assertive">
-                button-assertive
-            </button>
-
-            <button class="button button-royal">
-                button-royal
-            </button>
-
-            <button class="button button-dark">
-                button-dark
-            </button>
-
 
         </ion-content>
+        <div class="tabs-striped tabs-background-positive tabs-color-light">
+            <div class="tabs">
+                <a class="tab-item active" href="#"> <i class="icon ion-home"></i> Test </a>
+                <a class="tab-item" href="#"> <i class="icon ion-star"></i> Favorites </a>
+                <a class="tab-item" href="#"> <i class="icon ion-gear-a"></i> Settings </a>
+            </div>
+        </div>
     </ion-pane>
 </body>
 
