@@ -77,12 +77,15 @@ $item-default-active-border:      rgba(0, 0, 0, 0.6) !default;
 
 
 // inputs
-$input-bg:                        $gray-lighter;
-$input-bg-disabled:               $stable !default;
-
-$input-color:                     #111 !default;
+// $input-bg:                        $gray-light;
+$input-bg-disabled:               $gray-lighter;
+$input-color:                     $light;
+$input-color-placeholder:         $gray-lighter;
 //$input-label-color:               $dark !default;
-$input-color-placeholder:         $gray;
+
+.item-input textarea {
+    background: transparent;
+}
 
 // The path for our ionicons font files, relative to the built CSS in www/css
 $ionicons-font-path: "../lib/ionic/fonts" !default;

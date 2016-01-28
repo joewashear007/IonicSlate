@@ -18,6 +18,9 @@ $dark:                            #444 !default;
 .item[disabled] {
   color: #7A8288; }
 
+.item-input textarea {
+  background: transparent; }
+
 /*!
   Ionicons, v2.0.1
   Created by Ben Sperry for the Ionic Framework, http://ionicons.com/
@@ -7524,7 +7527,7 @@ textarea {
   border-radius: 2px;
   padding: 4px 8px 3px 0;
   border: none;
-  background-color: #999; }
+  background-color: #C8C8C8; }
 
 .item-stacked-label input {
   overflow: hidden;
@@ -7574,7 +7577,7 @@ input[type="color"] {
   padding-top: 2px;
   padding-left: 0;
   height: 34px;
-  color: #111;
+  color: #C8C8C8;
   vertical-align: middle;
   font-size: 14px;
   line-height: 16px; }
@@ -7598,11 +7601,11 @@ input[type="color"] {
 textarea {
   padding-left: 0; }
   textarea::-moz-placeholder {
-    color: #52575C; }
+    color: #999; }
   textarea:-ms-input-placeholder {
-    color: #52575C; }
+    color: #999; }
   textarea::-webkit-input-placeholder {
-    color: #52575C;
+    color: #999;
     text-indent: -3px; }
 
 textarea {
@@ -7651,13 +7654,13 @@ input[type="file"] {
 
 input::-moz-placeholder,
 textarea::-moz-placeholder {
-  color: #52575C; }
+  color: #999; }
 input:-ms-input-placeholder,
 textarea:-ms-input-placeholder {
-  color: #52575C; }
+  color: #999; }
 input::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder {
-  color: #52575C;
+  color: #999;
   text-indent: 0; }
 
 input[disabled],
@@ -7666,7 +7669,7 @@ textarea[disabled],
 input[readonly]:not(.cloned-text-input),
 textarea[readonly]:not(.cloned-text-input),
 select[readonly] {
-  background-color: #3A3F44;
+  background-color: #999;
   cursor: not-allowed; }
 
 input[type="radio"][disabled],
