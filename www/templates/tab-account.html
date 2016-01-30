@@ -1,0 +1,19 @@
+<ion-view view-title="Account">
+  <ion-content>
+    <ion-list>
+      <ion-toggle ng-model="settings.enableFriends">
+        Enable Friends
+      </ion-toggle>
+      <ion-item>Stuff1</ion-item>
+      <div class="item item-divider"> Item with icon </div>
+      <a class="item item-icon-right"> 2: Awareness <i class="icon ion-checkmark-round balanced"></i></a>
+      <div class="item item-divider"> Diabled Item </div>
+      <a class="item item-icon-right" ng-disabled="1"> 2: Awareness <i class="icon ion-checkmark-round balanced"></i></a>
+      <label class="item item-input">
+        <input type="text" placeholder="First Name"> </label>
+      <label class="item item-input">
+        <textarea placeholder="Comments"></textarea>
+      </label>
+    </ion-list>
+  </ion-content>
+</ion-view>
